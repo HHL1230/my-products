@@ -2,7 +2,7 @@
 
 歡迎來到我的產品發佈入口！這個 GitHub Repository 專門用來展示我開發的各項實驗室自動化工具。
 
-🌐 **[👉 點此進入產品入口官網 (GitHub Pages) 👈](https://HHL1230.github.io/my-products/)**
+🌐 **[👉 點此進入產品入口官網 (GitHub Pages) 👈](https://hhl1230.github.io/my-products/)**
 
 ---
 
@@ -11,7 +11,7 @@
 ### 1. ⚖️ Scale Monitor (天平數據傳輸程式)
 專為實驗室設計的自動化工具。透過 RS232 直連技術，將 Mettler Toledo 與 OHAUS 等天平的重量數據精準、穩定地導入 Excel，徹底解決手動輸入的失誤與輸入法干擾。
 - **特點**：背景寫入、防連發機制、多方向游標移動。
-- 📥 **[點此前往 Scale Monitor 專屬下載頁面](https://HHL1230.github.io/my-products/scale-monitor/)**
+- 📥 **[點此前往 Scale Monitor 專屬下載頁面](https://hhl1230.github.io/my-products/scale-monitor/)**
 
 ---
 
@@ -21,3 +21,4 @@
 
 - **開發者**: Shawn Lee @ CCL-KHH
 - **Email**: [shawn.lee@sgs.com](mailto:shawn.lee@sgs.com)
+
