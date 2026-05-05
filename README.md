@@ -19,6 +19,9 @@
 
 這些工具主要為了提升實驗室與日常作業的效率而開發。如果您有任何使用上的疑問、功能建議，或遇到需要協助的狀況，歡迎與我聯繫：
 
-- **開發者**: Shawn Lee @ CCL-KHH
-- **Email**: [shawn.lee@sgs.com](mailto:shawn.lee@sgs.com)
+- **開發者**: Hao-Hsiang Lee
+- **Email**: [haohsianglee@gmail.com](mailto:haohsianglee@gmail.com)
 
+
+
+> **Disclaimer**: 本專案為個人開發之開源/免費工具，不代表任何企業立場，亦不提供任何商業保證或承諾。
