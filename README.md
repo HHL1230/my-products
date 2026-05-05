@@ -1,4 +1,4 @@
-﻿# 🚀 Shawn's Automation Tools (產品發佈站)
+# 🚀 Shawn's Automation Tools (產品發佈站)
 
 歡迎來到我的產品發佈入口！這個 GitHub Repository 專門用來展示我開發的各項實驗室自動化工具。
 
@@ -24,4 +24,4 @@
 
 
 
-> **Disclaimer**: 本專案為個人開發之開源/免費工具，不代表任何企業立場，亦不提供任何商業保證或承諾。
+
