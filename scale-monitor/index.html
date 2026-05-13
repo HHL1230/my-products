@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scale Monitor - 撠平憭拙像?豢??唾撓閫?捱?寞?</title>
+    <title>Scale Monitor - 專業天平數據傳輸解決方案</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
@@ -180,13 +180,26 @@
             padding-bottom: 0.5rem;
         }
 
+        .guide-block ol, .guide-block ul, .guide-block p {
+            color: #e2e8f0;
+        }
+
         .guide-block ol, .guide-block ul {
             padding-left: 1.5rem;
-            color: var(--text-muted);
         }
 
         .guide-block li {
             margin-bottom: 0.8rem;
+        }
+
+        code {
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 1.1em;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.1rem 0.3rem;
+            border-radius: 4px;
+            color: var(--primary);
+            vertical-align: baseline;
         }
 
         .alert {
@@ -199,7 +212,6 @@
 
         .alert strong {
             color: var(--accent);
-            
         }
 
         .faq-qa {
@@ -210,20 +222,6 @@
             color: var(--text);
             display: block;
             margin-bottom: 0.3rem;
-        }
-
-                code {
-            font-family: 'Consolas', 'Monaco', monospace;
-            font-size: 1.1em;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 0.1rem 0.3rem;
-            border-radius: 4px;
-            color: var(--primary);
-            vertical-align: baseline;
-        }
-
-                .guide-block ol, .guide-block ul, .guide-block p {
-            color: #e2e8f0;
         }
 
         footer {
@@ -253,122 +251,125 @@
             <h1>Scale Monitor</h1>
             <div class="version-badge">Version 1.1.0 - Stable</div>
             <p class="hero-text">
-                撠撖阡?摰方身閮??芸??極?瑯? RS232 ?湧??銵?撠予撟喲???移皞帘摰撠 Excel嚗??交??撓?亥?頛詨瘜僕?整?
+                專為實驗室設計的自動化工具。透過 RS232 直連技術，將天平重量數據精準、穩定地導入 Excel，告別手動輸入與輸入法干擾。
             </p>
         </header>
 
         <section class="download-section">
             <a href="https://github.com/HHL1230/my-products/releases/download/scale-monitor-v1.1.0/ScaleMonitor.exe" class="btn-download">
-                <span>?? 蝡銝? ScaleMonitor.exe</span>
+                <span>🚀 立即下載 ScaleMonitor.exe</span>
             </a>
-            <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem;">?舀 Windows 10/11 & Excel 獢??(??Microsoft 365)</p>
+            <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem;">支援 Windows 10/11 & Excel 桌面版 (含 Microsoft 365)</p>
         </section>
 
         <section class="features">
             <div class="feature-card">
-                <span class="feature-icon">?剁?</span>
-                <h3>頛詨瘜霈?銵?/h3>
-                <p>摰銝?銝??望?頛詨瘜蔣?選?閫?捱?喟絞璅⊥?萇????釣?喟泵??鈭Ⅳ??憿?/p>
+                <span class="feature-icon">⌨️</span>
+                <h3>輸入法避讓技術</h3>
+                <p>完全不受中/英文輸入法影響，解決傳統模擬鍵盤時數據變成注音符號或亂碼的問題。</p>
             </div>
             <div class="feature-card">
-                <span class="feature-icon">?儭?/span>
-                <h3>?脤??蕪 (New)</h3>
-                <p>?芸??蕪 OHAUS 蝑予撟喳甈⊥?雿????鞈?嚗?瘥????嚗?霅?銝?扼?/p>
+                <span class="feature-icon">🛡️</span>
+                <h3>防連發過濾 (New)</h3>
+                <p>自動過濾 OHAUS 等天平單次操作傳送的冗餘資料（如毛重、皮重），保證數據唯一性。</p>
             </div>
             <div class="feature-card">
-                <span class="feature-icon">??</span>
-                <h3>?撖怠?銵?/h3>
-                <p>?喃蝙 Excel 閬?銝?阡?嚗迤?刻??隞極雿?嚗???嗉皞Ⅱ撖怠???脣??潦?/p>
+                <span class="feature-icon">📊</span>
+                <h3>背景寫入技術</h3>
+                <p>即使 Excel 視窗不在焦點（正在處理其他工作），數據依然能準確寫入指定儲存格。</p>
             </div>
             <div class="feature-card">
-                <span class="feature-icon">??/span>
-                <h3>?箸?芸???/h3>
-                <p>?舀憭?虜璅宏??折?蝵格蝺?摰?憟? LIMS 蝟餌絞雿平蝭憟?/p>
+                <span class="feature-icon">⚡</span>
+                <h3>智慧自動化</h3>
+                <p>支援多方向游標移動、智慧閒置斷線，完美契合 LIMS 系統作業節奏。</p>
             </div>
         </section>
 
-        <!-- ?游? README 雿輻隤芣? -->
         <section class="guide-section">
-            <h2>?? 敹恍?????/h2>
+            <h2>📖 快速上手指南</h2>
             
             <div class="guide-block">
-                <h3>1. 摰?????/h3>
+                <h3>1. 安裝與準備</h3>
                 <ul>
-                    <li>隢?銝???<code>ScaleMonitor.exe</code> ?曄蔭?潭??strong>獢</strong>嚗?隞餅??嫣噶雿輻???冗嚗?/li>
-                    <li>蝣箔?憭拙像撌脤? RS232 ??蝺? USB 頧?COM 蝺迤蝣粹??喲?艾?/li>
-                    <li>蝣箄??餉銝剖歇摰?銝血甇?虜?? Microsoft Excel??/li>
+                    <li>請將下載的 <code>ScaleMonitor.exe</code> 放置於您的<strong>桌面</strong>（或任意方便使用的資料夾）。</li>
+                    <li>確保天平已透過 RS232 連接線或 USB 轉 COM 線正確連接至電腦。</li>
+                    <li>確認電腦中已安裝並可正常開啟 Microsoft Excel。</li>
                 </ul>
             </div>
 
             <div class="guide-block">
-                <h3>2. 擐活????蝵?/h3>
-                <p style="color: var(--text-muted); margin-bottom: 1rem;">蝚砌?甈∪???撘?嚗?Ｘ???桀??菜葫?啁?????靘?蝯垢璈?Ｘ?蝷綽?閮剖?隞乩??嚗銝耨?寧?交? Enter ?喳雿輻?身?潘?嚗?/p>
+                <h3>2. 首次啟動與配置</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">第一次啟動程式時，畫面會列出目前偵測到的通訊埠。請依據終端機畫面提示，設定以下參數（若不修改直接按 Enter 即可使用預設值）：</p>
                 <ol>
-                    <li><strong>COM Port</strong>嚗撓?亙予撟喲???蝺刻?嚗?憒?<code>COM1</code>嚗?/li>
-                    <li><strong>RS232 ???</strong>嚗???Baud Rate (?身 9600)?arity?ata Bits?top Bits?????典予撟喳?函?閮剖??澆??其??氬?/li>
-                    <li><strong>銝??潛宏???/strong>嚗迂???Ｗ?嚗身摰?Excel 皜豢??芸?敺?芾ㄐ頝喳?嚗?憒?<code>down</code>, <code>right</code>嚗?/li>
-                    <li><strong>?脤??蕪??</strong>嚗?閮剔 <code>1</code> 蝘??其誑?蕪?格活????擗???/li>
-                    <li><strong>?蔭?瑞???</strong>嚗?閮剔 <code>30</code> ?????????蝺蒂??????/li>
+                    <li><strong>COM Port</strong>：輸入天平連接埠的編號（例如 <code>COM1</code>）。</li>
+                    <li><strong>RS232 通訊參數</strong>：包含 Baud Rate (預設 9600)、Parity、Data Bits、Stop Bits。必須與您天平內部的設定值完全一致。</li>
+                    <li><strong>下一格移動方向</strong>：稱量完畢後，設定 Excel 游標自動往哪裡跳動（例如 <code>down</code>, <code>right</code>）。</li>
+                    <li><strong>防連發過濾時間</strong>：預設為 <code>1</code> 秒，用以過濾單次操作的冗餘訊號。</li>
+                    <li><strong>閒置斷線時間</strong>：預設為 <code>30</code> 分鐘。超時未操作會自動斷線並釋放連線。</li>
                 </ol>
                 <div class="alert">
-                    <strong>? 憒??閮剖?嚗?/strong><br>
-                    ??摮??? <code>config.json</code> 銝准?甈∪????? 3 蝘嚗甇斗???銝?支???<strong><code>R</code></strong> ?蛛??喳?脣?閮剖?隞??
+                    <strong>💡 如何重新設定？</strong><br>
+                    參數會儲存於同目錄的 <code>config.json</code> 中。每次啟動時會有 3 秒倒數，在此期間按下鍵盤上的 <strong><code>R</code></strong> 鍵，即可進入重新設定介面。
                 </div>
             </div>
 
             <div class="guide-block">
-                <h3>3. ?亙虜雿平瘚?</h3>
+                <h3>3. 日常作業流程</h3>
                 <ol>
-                    <li><strong>??蝔?</strong>嚗??銵?<code>ScaleMonitor.exe</code>嚗Ⅱ隤＊蝷?<code>Connected</code> ??<code>Excel linked</code>??/li>
-                    <li><strong>?? Excel</strong>嚗??豢?喳‵?交??韏瑕??脣??潦?/li>
-                    <li><strong>憭拙像蝔梢?</strong>嚗憭拙像蝛拙?敺???憭拙像銝? <strong>Print / ?唾撓</strong> ?蛛??詨澆?祇?撖怠 Excel 銝西?歲?潦?/li>
+                    <li><strong>啟動程式</strong>：雙擊執行 <code>ScaleMonitor.exe</code>，確認顯示 <code>Connected</code> 與 <code>Excel linked</code>。</li>
+                    <li><strong>開啟 Excel</strong>：點選您想填入數據的起始儲存格。</li>
+                    <li><strong>天平稱量</strong>：在天平穩定後，按下天平上的 <strong>Print / 傳輸</strong> 鍵，數值即瞬間寫入 Excel 並自動跳格。</li>
                 </ol>
                 <div class="alert">
-                    <strong>?? ????LIMS 蝝?頂蝯望釣????/strong><br>
-                    ScaleMonitor ?????雿予撟喟?????典?蝥?閬 LIMS 蝟餌絞銝剔?交????臬??嚗?strong>隢????? ScaleMonitor 閬?</strong>嚗??暸??敺?憭拙像??Ｗ儔蝝?摮芋撘? LIMS ????
+                    <strong>⚠️ 切換至 LIMS 紀錄系統注意事項</strong><br>
+                    ScaleMonitor 運行時會「獨佔」天平的通訊埠。若您後續需要在 LIMS 系統中直接掃描或匯入重量，<strong>請先手動關閉 ScaleMonitor 視窗</strong>，釋放連線後，天平才能恢復純文字模式供 LIMS 抓取。
                 </div>
             </div>
 
-                        <div class="guide-block">
-                <h3>4. 閮剖??詨捆?扯??/h3>
-                <p style="color: var(--text-muted); margin-bottom: 1rem;">?祈?擃?璅? RS232 ?脰??豢??交嚗?隢??舀憭折?????予撟喋?歇?潔誑銝?????摰??詨捆?折?霅?</p>
+            <div class="guide-block">
+                <h3>4. 設備相容性聲明</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">本軟體透過標準 RS232 進行數據接收，理論上支援大部分具備通訊功能的天平。目前已於以下廠牌與型號完成相容性驗證：</p>
                 <ul>
-                    <li><strong>Mettler Toledo</strong>嚗PE 205</li>
-                    <li><strong>OHAUS</strong>嚗X224 (撌脤?撠迨????脤??蕪璈)</li>
+                    <li><strong>Mettler Toledo</strong>：XPE 205</li>
+                    <li><strong>OHAUS</strong>：AX224 (已針對此型號加入防連發過濾機制)</li>
                 </ul>
                 <div class="alert">
-                    <strong>? ?詨捆?批?憿???/strong><br>
-                    ??撱?憭拙像?頛詨?銝脫撘?賜?榆?堆??交?其蝙?典隞?????豢?????摮??⊥?霅??瘜?甇∟???銝?縑蝞勗??望???????瘜?
+                    <strong>💡 相容性問題回報</strong><br>
+                    因各廠牌天平的傳輸字串格式可能略有差異，若您在使用其他型號時遇到數據重複、漏字或無法識別的狀況，歡迎透過下方的信箱回報您的廠牌型號與狀況。
                 </div>
             </div>
 
             <div class="guide-block" style="border: none; padding-bottom: 0;">
-                <h3>??撣貉??? (Q&A)</h3>
+                <h3>❓ 常見問題 (Q&A)</h3>
                 <div class="faq-qa">
-                    <strong>Q: 蝯垢璈??湧＊蝷?[Excel Busy] 撖思??脣嚗?/strong>
-                    <span style="color: var(--text-muted);">A: 憒??冽迤??Excel ?脣??澆??摮?皜豢????楊頛舐???嚗xcel ??摰??典神?乓閬?銝?<code>Enter</code> ?萇??楊頛舐???憭拙像?豢?撠梯甇?虜撖怠鈭?/span>
+                    <strong>Q: 終端機一直顯示 [Excel Busy] 寫不進去？</strong>
+                    <span>A: 如果您正在 Excel 儲存格內「打字」（游標閃動的編輯狀態），Excel 會鎖定外部寫入。只要按下 <code>Enter</code> 鍵結束編輯狀態，天平數據就能正常寫入了。</span>
                 </div>
                 <div class="faq-qa">
-                    <strong>Q: 蝔?蝒?芸楛??鈭?</strong>
-                    <span style="color: var(--text-muted);">A: ?虜?臬??粹??唬??刻身摰???蝵格???蝟餌絞?箔?蝭??皞蒂???????甇?虜靽風璈嚗??啣銵?撘?胯?/span>
+                    <strong>Q: 程式突然自己關閉了？</strong>
+                    <span>A: 這通常是因為達到了您設定的「閒置時間」，系統為了節省資源並釋放連線所做的正常保護機制，重新執行程式即可。</span>
                 </div>
             </div>
+
+            <section class="changelog">
+                <h2>✨ v1.1.0 更新日誌</h2>
+                <div class="changelog-item"><strong>核心重大升級</strong>：改由 C# 重新編寫核心邏輯，大幅提升執行效能與系統穩定性。</div>
+                <div class="changelog-item">優化 COM Port 通訊處理，減少數據傳輸延遲。</div>
+                <div class="changelog-item">維持與舊版 config.json 的完美向下相容。</div>
+                <br>
+                <h2>✨ v1.0.1 更新日誌</h2>
+                <div class="changelog-item">新增「防連發 (Debounce)」機制，支援 OHAUS AX224 等廠牌。</div>
+                <div class="changelog-item">設定精靈加入自訂過濾時間（預設 1.0 秒）。</div>
+                <div class="changelog-item">啟動畫面加入版本號顯示，方便確認版本。</div>
+                <div class="changelog-item">優化與 Mettler Toledo 天平的相容性。</div>
+            </section>
         </section>
 
         <footer>
-            <p>?舐窗靽∠拳: <a href="mailto:haohsianglee@gmail.com" style="color: var(--text-muted); text-decoration: underline;">haohsianglee@gmail.com</a></p>
+            <p>&copy; 2026 Hao-Hsiang Lee. All Rights Reserved.</p>
+            <p>聯絡信箱: <a href="mailto:haohsianglee@gmail.com" style="color: var(--text-muted); text-decoration: underline;">haohsianglee@gmail.com</a></p>
+            <div style="margin-top: 1rem; font-size: 0.8rem; opacity: 0.5;">Disclaimer: 本軟體為個人開發之免費工具，不代表任何企業立場，亦不提供任何商業保證。</div>
         </footer>
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
